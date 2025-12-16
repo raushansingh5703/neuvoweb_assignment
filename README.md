@@ -3,24 +3,25 @@
 A new Flutter project.
 
 ## Getting Started
-
 # HMSRVC – Flutter UI Assignment
 
 ## Flutter Version Used
-- Flutter: **Latest Stable Version**
-- Dart: Compatible with Flutter stable
+- Flutter: **3.35.6** (Channel: stable)
+- Dart: Comes bundled with Flutter 3.35.6
+- OS: Windows 11
+- Android SDK: 36.1.0
 
 ---
 
 ## How to Run the Project
 
 ### Prerequisites
-- Flutter SDK installed
-- Android Studio / VS Code with Flutter plugin
-- Android emulator or physical Android device
+- Flutter SDK (stable)
+- Android Studio or VS Code
+- Android Emulator or physical Android device
 
 ### Steps
-1. Extract the project ZIP file or clone the repository
+1. Clone the repository or extract the ZIP file
 2. Open the project directory
 3. Run the following commands:
 
@@ -28,22 +29,26 @@ A new Flutter project.
 flutter pub get
 flutter run
 
+
 Build APK
 
 To generate an installable APK:
+
 flutter build apk
 
+
 The APK will be generated at:
+
 build/app/outputs/flutter-apk/app-release.apk
 
-Assumptions & Shortcuts Taken
+Assumptions / Shortcuts Taken
 
-1. Backend integration is not implemented as per assignment instructions
+Backend and API integration are not implemented as per assignment instructions
 
-2. Authentication, OTP verification, and form submission flows are static
+Authentication, OTP verification, and form submission flows are static
 
-3. Dummy/static data is used for service listings and categories
+Dummy/static data is used for service listings and categories
 
-4. Focus was on UI accuracy, clean code structure, and navigation flow
+Focus was on UI accuracy, navigation flow, and clean code structure
 
-5. No third-party UI kits were used
+No third-party UI kits were used
